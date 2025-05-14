@@ -1,10 +1,3 @@
-d
-+64
--33
-
-
-Original file line number	Diff line number	Diff line change
-@@ -1,33 +1,64 @@
 # METRO CASH AND DATA WAREHOUSE PROTOTYPE
 Prerequisites
 1. System Requirements
