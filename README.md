@@ -14,14 +14,14 @@ c. transactions.csv: Contains  transaction data.
   
 Step-by-Step Instructions
 1. Set Up the Database
-1. Open DBEAVER 
-2. Create a database named  Metro_Dwh_Project:
-3. Execute the provided SQL script to create the necessary tables:
-a. CUSTOMER_DIMENSION
-b. PRODUCT_DIMENSION
-c. TIME_DIMENSION
-d. METRO_SALES_FACT
-load customers_data.csv, products_data.csv, and transactions.csv.
+2. Open DBEAVER 
+3. Create a database named  Metro_Dwh_Project:
+4. Execute the provided SQL script to create the necessary tables:
+ - CUSTOMER_DIMENSION
+ - PRODUCT_DIMENSION
+ - TIME_DIMENSION
+ - METRO_SALES_FACT
+5. load customers_data.csv, products_data.csv, and transactions.csv.
 configure Java Project
  a. Open Eclipse or your Java IDE.
  b. Create a new project 
