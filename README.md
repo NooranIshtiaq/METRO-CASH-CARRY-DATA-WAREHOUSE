@@ -1,64 +1,39 @@
-🏬 METRO Cash & Carry — Data Warehouse Prototype
-📋 Prerequisites
-💻 System Requirements
-MySQL Server 8.0 or above
+d
++64
+-33
 
-DBeaver (Database management tool)
 
-Eclipse IDE for Java Developers
-
-📦 Required Libraries / Dependencies
-MySQL Connector/J (8.4) – Ensure the .jar file is added to your Java project's build path.
-
-📁 Dataset Files
-Ensure the following datasets are available:
-
-customers_data.csv – Contains customer records
-
-products_data.csv – Contains product details
-
-transactions.csv – Contains transactional data
-
-🛠️ Step-by-Step Setup Instructions
-🔸 1. Set Up the Database
-Open DBeaver
-
-Create a database:
-
-sql
-Copy
-Edit
-CREATE DATABASE Metro_Dwh_Project;
-Execute the provided SQL script to create the required tables:
-
-CUSTOMER_DIMENSION
-
-PRODUCT_DIMENSION
-
-TIME_DIMENSION
-
-METRO_SALES_FACT
-
-Load your CSV datasets (customers_data.csv, products_data.csv, and transactions.csv) into the corresponding tables.
-
-🔸 2. Configure Java Project
-Open Eclipse (or your preferred Java IDE)
-
-Create a new Java project
-
-Add MySQL Connector/J (8.4) to your project’s referenced libraries:
-
-Right-click project → Build Path → Add External Archives → Select .jar file
-
-Configure database credentials inside your Main.java file:
-
-java
-Copy
-Edit
-String url = "jdbc:mysql://localhost:3306/Metro_Dwh_Project";
-String user = "your_username";
-String password = "your_password";
-Create a package named:
- "mesh_Join "
-and place your Java file(s) inside this package.
-You’re now ready to run your METRO Data Warehouse Prototype and explore powerful analytics from your dimensionally-modeled warehouse
+Original file line number	Diff line number	Diff line change
+@@ -1,33 +1,64 @@
+# METRO CASH AND DATA WAREHOUSE PROTOTYPE
+Prerequisites
+1. System Requirements
+a. MySQL Server 8.0 or above.
+b. DBEAVER 
+c. Eclipse IDE for Java Developers 
+2. Libraries/Dependencies
+a. MySQL Connector/J(8.4) (.jar file)
+3. Dataset Requirements
+a. customers_data.csv: Contains customer data.
+b. products_data.csv: Contains product data.
+c. transactions.csv: Contains  transaction data.
+  
+Step-by-Step Instructions
+1. Set Up the Database
+2. Open DBEAVER 
+3. Create a database named  Metro_Dwh_Project:
+4. Execute the provided SQL script to create the necessary tables:
+ - CUSTOMER_DIMENSION
+ - PRODUCT_DIMENSION
+ - TIME_DIMENSION
+ - METRO_SALES_FACT
+5. load customers_data.csv, products_data.csv, and transactions.csv.
+configure Java Project
+   - Open Eclipse or your Java IDE.
+   - Create a new project 
+   - Set Up Dependencies
+   - Add the MySQL Connector(8.4) to your referenced library of project's build path.
+   - Configure Database Credentials:
+   - Open the Main.java file.
+   - Update variables with your MySQL credentials: 
+   - make package class named mesh-Join and place the java file inside the class .
