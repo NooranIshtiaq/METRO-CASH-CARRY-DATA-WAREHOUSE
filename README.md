@@ -21,7 +21,6 @@ a. CUSTOMER_DIMENSION
 b. PRODUCT_DIMENSION
 c. TIME_DIMENSION
 d. METRO_SALES_FACT
-
 load customers_data.csv, products_data.csv, and transactions.csv.
 configure Java Project
  a. Open Eclipse or your Java IDE.
